@@ -9,7 +9,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='huawei_b593_status',
-    version='0.0.1',
+    version='0.0.2',
     description='Huawei B593 status fetcher',
     long_description=long_description,
     url='https://github.com/ojarva/python-huawei-b593-status',
