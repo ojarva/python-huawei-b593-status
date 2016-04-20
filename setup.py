@@ -34,7 +34,7 @@ setup(
     ],
     keywords='huawei 4g b593',
     packages=["huawei_b593_status"],
-    install_requires=['xmltodict', 'httplib2'],
+    install_requires=['xmltodict>=0.10.1', 'httplib2>=0.9.2'],
 
     extras_require = {
         'dev': ['twine', 'wheel'],
